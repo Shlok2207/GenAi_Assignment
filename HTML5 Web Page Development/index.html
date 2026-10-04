@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>College Department Website</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      line-height: 1.6;
+      background: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background: #0056A0;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+
+    nav {
+      background: #333;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    }
+    nav a {
+      color: white;
+      padding: 1rem 1.5rem;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    nav a:hover {
+      background: #0073CF;
+    }
+
+    section {
+      padding: 2rem;
+    }
+    section h2 {
+      text-align: left;
+      margin-bottom: 1rem;
+      color: #000000;
+      font-size: 1.6rem;
+    }
+
+    /* Table styling */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+    table th, table td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: center;
+    }
+    table th {
+      background: #0056A0;
+      color: white;
+    }
+
+    /* Gallery styling */
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 1rem;
+    }
+    .gallery img {
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+      margin: 10px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    /* Video styling */
+    video {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+
+    /* Contact form styling */
+    form {
+      display: flex;
+      flex-direction: column;
+      max-width: 400px;
+      margin: auto;
+      background: #fff;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    form input, form textarea {
+      margin: 10px 0;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    form button {
+      background: #0056A0;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    form button:hover {
+      background: #0073CF;
+    }
+
+    footer {
+      background: #0056A0;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+
+    /* Responsive design */
+    @media (max-width: 768px) {
+      nav {
+        flex-direction: column;
+      }
+      .gallery img {
+        width: 90%;
+        height: auto;
+      }
+      section {
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Department of Computer Science</h1>
+    <p>Welcome to our official department website</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#intro">Introduction</a>
+    <a href="#courses">Courses</a>
+    <a href="#faculty">Faculty</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Introduction -->
+  <section id="intro">
+    <h2>About the Department</h2>
+    <p>
+      The Department of Computer Science is committed to excellence in teaching, research, and innovation. 
+      Our faculty members are actively engaged in cutting-edge research areas such as Artificial Intelligence, 
+      Cybersecurity, Data Science, and Web Technologies. We aim to provide students with a strong foundation 
+      in computer science principles while encouraging creativity, problem-solving, and collaboration. 
+      The department also organizes workshops, seminars, and hackathons to ensure students gain practical 
+      exposure and industry-ready skills.
+    </p>
+  </section>
+
+  <!-- Courses -->
+  <section id="courses">
+    <h2>Courses Offered</h2>
+    <ul>
+      <li><a href="btech.html">B.Tech. Computer Science</a></li>
+      <li><a href="mtech.html">M.Tech. Computer Science</a></li>
+      <li><a href="phd.html">Ph.D. in Artificial Intelligence</a></li>
+    </ul>
+  </section>
+
+  <!-- Faculty -->
+  <section id="faculty">
+    <h2>Faculty Information</h2>
+    <table>
+      <tr><th>Name</th><th>Designation</th><th>Specialization</th></tr>
+      <tr><td>Dr. A Sharma</td><td>Professor</td><td>Machine Learning</td></tr>
+      <tr><td>Dr. B Singh</td><td>Associate Professor</td><td>Cybersecurity</td></tr>
+      <tr><td>Ms. C Gupta</td><td>Assistant Professor</td><td>Web Development</td></tr>
+    </table>
+  </section>
+
+  <!-- Achievements -->
+  <section id="achievements">
+    <h2>Student Achievements</h2>
+    <ul>
+      <li>Winners of multiple national-level hackathons and coding competitions.</li>
+      <li>Published research papers in reputed international journals and conferences.</li>
+      <li>Secured top placements in leading tech companies such as Google, Microsoft, and Infosys.</li>
+      <li>Developed innovative projects showcased at international exhibitions.</li>
+      <li>Active participation in community outreach programs and technical clubs.</li>
+    </ul>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery">
+    <h2>Image Gallery</h2>
+    <div class="gallery">
+      <img src="Images and Videos/pexels-didarul-islam-2470780-4107696.jpg" alt="Gallery Image 1">
+      <img src="Images and Videos/pexels-mati-18678225.jpg" alt="Gallery Image 2">
+      <img src="Images and Videos/1742973882phpCFlgcT.jpeg" alt="Gallery Image 3">
+    </div>
+  </section>
+
+  <!-- Multimedia -->
+  <section id="multimedia">
+    <h2>Multimedia Content</h2>
+    <video controls autoplay loop muted>
+      <source src="Images and Videos/istockphoto-2227548387-640_adpp_is.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <!-- Contact Form -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Department of Computer Science</p>
+  </footer>
+
+</body>
+</html>
