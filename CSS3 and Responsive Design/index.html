@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Shlok Verma</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="logo">Shlok <span>Verma</span></div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+    </ul>
+    <button type="button" class="contact-btn" onclick="window.location.href='#contact'">Contact Me</button>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <p class="hello">Hello, I'm</p>
+      <h1>Shlok <span>Verma</span></h1>
+      <h2>Machine Learning Engineer</h2>
+      <p class="hero-text">
+        I specialize in building intelligent systems, training machine learning models, and developing AI-driven solutions. Alongside ML, I also create modern, responsive websites using HTML, CSS, and JavaScript.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#" class="primary-btn">Download CV</a>
+        <a href="#projects" class="secondary-btn">View Projects</a>
+      </div>
+
+      <!-- Social Icons -->
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/shlok-verma" target="_blank" rel="noopener">
+          <img src="images/linkedin.png" alt="LinkedIn"> LinkedIn
+        </a>
+        <a href="https://github.com/" target="_blank" rel="noopener">
+          <img src="images/github.png" alt="GitHub"> GitHub
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <img src="images/WhatsApp Image 2026-09-02 at 09.38.52.jpeg" alt="Shlok Verma">
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about section" id="about">
+    <div class="about-image">
+      <img src="images/WhatsApp Image 2026-09-02 at 09.38.52.jpeg" alt="About Shlok Verma">
+    </div>
+    <div class="about-content">
+      <p class="section-small-title">ABOUT ME</p>
+      <h2>Get to know me</h2>
+      <p class="about-text">
+        I am passionate about Machine Learning and Artificial Intelligence. My focus is on developing predictive models, optimizing algorithms, and applying data-driven approaches to solve real-world problems. I also enjoy creating responsive and visually appealing websites as side projects.
+      </p>
+      <div class="personal-info">
+        <div><strong>Name:</strong> Shlok Verma</div>
+        <div><strong>Email:</strong> shlokwork05@gmail.com</div>
+        <div><strong>Location:</strong> Gandhinagar, Gujarat</div>
+        <div><strong>Phone:</strong> 898XX876XX</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills section" id="skills">
+    <div class="section-heading">
+      <p class="section-small-title">MY SKILLS</p>
+      <h2>Technologies I Work With</h2>
+    </div>
+    <div class="skill-grid">
+      <div class="skill-card">
+        <h3>Machine Learning</h3>
+        <p>Building predictive models, training algorithms, and applying ML techniques.</p>
+      </div>
+      <div class="skill-card">
+        <h3>Python</h3>
+        <p>Data analysis, ML libraries (NumPy, Pandas, scikit‑learn, TensorFlow, PyTorch).</p>
+      </div>
+      <div class="skill-card">
+        <h3>Artificial Intelligence</h3>
+        <p>Natural Language Processing, Computer Vision, and AI‑driven solutions.</p>
+      </div>
+      <div class="skill-card">
+        <h3>Data Science</h3>
+        <p>Data preprocessing, visualization, and statistical modeling.</p>
+      </div>
+      <div class="skill-card">
+        <h3>Web Development</h3>
+        <p>Creating responsive websites with HTML5, CSS3, and JavaScript.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects-section section" id="projects">
+    <div class="section-heading">
+      <p class="section-small-title">MY WORK</p>
+      <h2>Featured Projects</h2>
+    </div>
+    <div class="projects-grid">
+      <div class="project-card">
+        <img src="images/24b189a9-424b-4705-92d7-2bc35686fea1.jpg" alt="Image Classification Model">
+        <div class="project-content">
+          <h3>Image Classification Model</h3>
+          <p>Developed a deep learning model using CNNs to classify images with high accuracy.</p>
+          <a href="#">View Project</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="images/29985856-85a7-46c0-a316-e4099d983228.jpg" alt="AI Chatbot">
+        <div class="project-content">
+          <h3>AI Chatbot</h3>
+          <p>Built a conversational chatbot using NLP techniques and Python libraries.</p>
+          <a href="#">View Project</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="images/4310f818-cbf0-483b-bbc7-f145c7c9571d.jpg" alt="Recommendation System">
+        <div class="project-content">
+          <h3>Recommendation System</h3>
+          <p>Designed a collaborative filtering system to recommend products based on user behavior.</p>
+          <a href="#">View Project</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact section" id="contact">
+    <div class="section-heading">
+      <p class="section-small-title">CONTACT ME</p>
+      <h2>Let's Work Together</h2>
+    </div>
+    <form class="contact-form">
+      <input type="text" placeholder="Enter your name" required>
+      <input type="email" placeholder="Enter your email" required>
+      <textarea placeholder="Write your message" rows="6" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <h2>Shlok Verma</h2>
+    <p>Machine Learning Engineer | Building Intelligent Systems & Modern Web Experiences.</p>
+    <p class="copyright">&copy; 2026 Shlok Verma. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
