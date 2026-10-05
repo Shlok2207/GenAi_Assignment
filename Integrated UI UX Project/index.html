@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="TravelGo offers curated domestic holiday packages, hotel stays, and personalized travel experiences across India.">
+  <title>TravelGo | Domestic Holiday Packages</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#home">TravelGo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#destinations">Destinations</a></li>
+          <li class="nav-item"><a class="nav-link" href="#packages">Packages</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#booking">Booking</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item ms-lg-3"><a class="btn btn-orange btn-sm rounded-pill px-3" href="#booking">Plan a Trip</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header id="home" class="hero-section">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content position-relative">
+      <div class="row align-items-center min-vh-75 py-5">
+        <div class="col-lg-7 text-white">
+          <span class="badge rounded-pill px-3 py-2 mb-3">Trusted by 50,000+ travelers</span>
+          <h1 class="fw-bold display-4 mb-3">Discover Your Next Adventure</h1>
+          <p class="lead mb-4">From city escapes to tropical getaways, we craft seamless journeys with premium stays, guided experiences, and unbeatable prices.</p>
+          <div class="hero-actions d-flex flex-wrap gap-3">
+            <a href="#booking" class="btn btn-orange btn-lg rounded-pill px-4">Start Booking</a>
+            <a href="#destinations" class="btn btn-outline-light btn-lg rounded-pill px-4">Explore More</a>
+          </div>
+        </div>
+
+        <div class="col-lg-5">
+          <div class="search-card">
+            <div class="search-header">
+              <h3>Quick Search</h3>
+              <span>Best deals this week</span>
+            </div>
+            <form class="row g-3">
+              <div class="col-12">
+                <label class="form-label" for="destination">Destination</label>
+                <input id="destination" type="text" class="form-control" placeholder="e.g. Goa, Kashmir" required>
+              </div>
+              <div class="col-md-6">
+                <label class="form-label" for="date">Departure</label>
+                <input id="date" type="date" class="form-control" required>
+              </div>
+              <div class="col-md-6">
+                <label class="form-label" for="guests">Travelers</label>
+                <input id="guests" type="number" class="form-control" min="1" value="2" required>
+              </div>
+              <div class="col-12">
+                <label class="form-label" for="packageType">Package Type</label>
+                <select id="packageType" class="form-select" required>
+                  <option selected disabled value="">Select a package</option>
+                  <option>Budget</option>
+                  <option>Luxury</option>
+                  <option>Adventure</option>
+                </select>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-orange w-100 rounded-pill">Search Trips</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="stats-section py-4">
+      <div class="container">
+        <div class="row text-center g-4">
+          <div class="col-md-3">
+            <div class="stat-box">
+              <h3>120+</h3>
+              <p>Global destinations</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="stat-box">
+              <h3>4.9/5</h3>
+              <p>Average rating</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="stat-box">
+              <h3>18k</h3>
+              <p>Happy travelers</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="stat-box">
+              <h3>24/7</h3>
+              <p>Travel assistance</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="destinations" class="py-5 bg-light">
+      <div class="container">
+        <div class="section-heading text-center mb-5">
+          <span class="eyebrow">Popular Indian escapes</span>
+          <h2>Top Domestic Destinations</h2>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-3">
+            <article class="destination-card">
+              <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=80" alt="Goa beach view">
+              <div class="destination-content">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                  <h3>Goa</h3>
+                  <span class="rating">★ 4.8</span>
+                </div>
+                <p>Sun, beaches, and relaxed coastal vibes.</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-3">
+            <article class="destination-card">
+              <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=900&q=80" alt="Snow-covered mountains in Kashmir">
+              <div class="destination-content">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                  <h3>Kashmir</h3>
+                  <span class="rating">★ 4.9</span>
+                </div>
+                <p>Snowy mountains, lakes, and scenic beauty.</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-3">
+            <article class="destination-card">
+              <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=900&q=80" alt="Kerala backwater view">
+              <div class="destination-content">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                  <h3>Kerala</h3>
+                  <span class="rating">★ 4.7</span>
+                </div>
+                <p>Backwaters, greenery, and peaceful retreats.</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-3">
+            <article class="destination-card">
+              <img src="https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=900&q=80" alt="Rajasthan palace view">
+              <div class="destination-content">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                  <h3>Rajasthan</h3>
+                  <span class="rating">★ 4.8</span>
+                </div>
+                <p>Royal heritage, forts, and colorful culture.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5">
+      <div class="container">
+        <div class="section-heading text-center mb-5">
+          <span class="eyebrow">Choose your trip</span>
+          <h2>Popular Domestic Tours</h2>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-6">
+            <div class="region-panel domestic-panel">
+              <div class="panel-header">
+                <div>
+                  <span class="panel-kicker">Best for relax</span>
+                  <h3>Beach & Hill Stations</h3>
+                </div>
+                <span class="panel-badge">8+ packages</span>
+              </div>
+              <div class="row g-3 mt-0">
+                <div class="col-md-6">
+                  <article class="mini-tour-card">
+                    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=80" alt="Goa beach">
+                    <div class="mini-tour-content">
+                      <div class="d-flex justify-content-between align-items-center">
+                        <h4>Goa</h4>
+                        <span>₹8,999</span>
+                      </div>
+                      <p>Beach fun, nightlife, and easy weekend plans.</p>
+                    </div>
+                  </article>
+                </div>
+                <div class="col-md-6">
+                  <article class="mini-tour-card">
+                    <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=900&q=80" alt="Snowy Kashmir mountains">
+                    <div class="mini-tour-content">
+                      <div class="d-flex justify-content-between align-items-center">
+                        <h4>Kashmir</h4>
+                        <span>₹12,500</span>
+                      </div>
+                      <p>Snowy mountains and calm lakes.</p>
+                    </div>
+                  </article>
+                </div>
+                <div class="col-md-6">
+                  <article class="mini-tour-card">
+                    <img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=900&q=80" alt="Himachal mountain lake">
+                    <div class="mini-tour-content">
+                      <div class="d-flex justify-content-between align-items-center">
+                        <h4>Himachal</h4>
+                        <span>₹10,400</span>
+                      </div>
+                      <p>Cool weather, valleys, and mountain views.</p>
+                    </div>
+                  </article>
+                </div>
+                <div class="col-md-6">
+                  <article class="mini-tour-card">
+                    <img src="https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=900&q=80" alt="Rajasthan heritage">
+                    <div class="mini-tour-content">
+                      <div class="d-flex justify-content-between align-items-center">
+                        <h4>Rajasthan</h4>
+                        <span>₹13,800</span>
+                      </div>
+                      <p>Heritage hotels and royal sightseeing.</p>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="region-panel domestic-panel">
+              <div class="panel-header">
+                <div>
+                  <span class="panel-kicker">Best for culture</span>
+                  <h3>Heritage & Nature</h3>
+                </div>
+                <span class="panel-badge">7+ packages</span>
+              </div>
+              <div class="row g-3 mt-0">
+                <div class="col-md-6">
+                  <article class="mini-tour-card">
+                    <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=900&q=80" alt="Kerala backwaters">
+                    <div class="mini-tour-content">
+                      <div class="d-flex justify-content-between align-items-center">
+                        <h4>Kerala</h4>
+                        <span>₹11,200</span>
+                      </div>
+                      <p>Backwaters, tea estates, and slow travel.</p>
+                    </div>
+                  </article>
+                </div>
+                <div class="col-md-6">
+                  <article class="mini-tour-card">
+                    <img src="https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=900&q=80" alt="Udaipur lake view">
+                    <div class="mini-tour-content">
+                      <div class="d-flex justify-content-between align-items-center">
+                        <h4>Udaipur</h4>
+                        <span>₹9,800</span>
+                      </div>
+                      <p>Palaces, lakes, and scenic evenings.</p>
+                    </div>
+                  </article>
+                </div>
+                <div class="col-md-6">
+                  <article class="mini-tour-card">
+                    <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80" alt="Ladakh mountain landscape">
+                    <div class="mini-tour-content">
+                      <div class="d-flex justify-content-between align-items-center">
+                        <h4>Ladakh</h4>
+                        <span>₹15,600</span>
+                      </div>
+                      <p>High-altitude views and unforgettable roads.</p>
+                    </div>
+                  </article>
+                </div>
+                <div class="col-md-6">
+                  <article class="mini-tour-card">
+                    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Tea_Plantations_in_Ooty_%283%29.jpg/960px-Tea_Plantations_in_Ooty_%283%29.jpg" alt="Tea plantations in Ooty">
+                    <div class="mini-tour-content">
+                      <div class="d-flex justify-content-between align-items-center">
+                        <h4>Ooty</h4>
+                        <span>₹7,900</span>
+                      </div>
+                      <p>Tea gardens, cool breezes, and quiet stays.</p>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="packages" class="py-5">
+      <div class="container">
+        <div class="section-heading text-center mb-5">
+          <span class="eyebrow">Curated options</span>
+          <h2>Travel Packages</h2>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="package-card h-100">
+              <span class="package-tag">Best Value</span>
+              <h3>Budget Escape</h3>
+              <p class="price">₹15,000</p>
+              <ul>
+                <li>Flights + hotel</li>
+                <li>Airport transfers</li>
+                <li>Local sightseeing</li>
+              </ul>
+              <a href="#booking" class="btn btn-outline-orange">Book Now</a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="package-card featured h-100">
+              <span class="package-tag">Most Popular</span>
+              <h3>Luxury Retreat</h3>
+              <p class="price">₹60,000</p>
+              <ul>
+                <li>5-star accommodation</li>
+                <li>Private guided tours</li>
+                <li>Premium dining package</li>
+              </ul>
+              <a href="#booking" class="btn btn-orange">Book Now</a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="package-card h-100">
+              <span class="package-tag">Adventure</span>
+              <h3>Thrill Explorer</h3>
+              <p class="price">₹30,000</p>
+              <ul>
+                <li>Adventure activities</li>
+                <li>Travel insurance</li>
+                <li>Expert local guide</li>
+              </ul>
+              <a href="#booking" class="btn btn-outline-orange">Book Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="experience-section py-5 bg-light">
+      <div class="container">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-6">
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80" alt="Traveler enjoying the coast" class="experience-image img-fluid rounded-4 shadow-sm">
+          </div>
+          <div class="col-lg-6">
+            <span class="eyebrow">Why choose us</span>
+            <h2 class="mb-4">Travel smarter, easier, and more memorable.</h2>
+            <div class="feature-list">
+              <div class="feature-item">
+                <div class="feature-icon">✓</div>
+                <div>
+                  <h3>Custom itineraries</h3>
+                  <p>Tailored plans that match your pace, style, and budget.</p>
+                </div>
+              </div>
+              <div class="feature-item">
+                <div class="feature-icon">✓</div>
+                <div>
+                  <h3>Flexible bookings</h3>
+                  <p>Adjust dates and packages with supportive travel guidance.</p>
+                </div>
+              </div>
+              <div class="feature-item">
+                <div class="feature-icon">✓</div>
+                <div>
+                  <h3>End-to-end support</h3>
+                  <p>From flights to transfers, we stay with you throughout the trip.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="booking" class="py-5">
+      <div class="container">
+        <div class="section-heading text-center mb-5">
+          <span class="eyebrow">Plan today</span>
+          <h2>Book Your Trip</h2>
+        </div>
+        <div class="row g-4 align-items-stretch">
+          <div class="col-lg-7">
+            <form class="booking-form">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label class="form-label" for="name">Full Name</label>
+                  <input id="name" type="text" class="form-control" placeholder="Your name" required>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label" for="email">Email</label>
+                  <input id="email" type="email" class="form-control" placeholder="you@example.com" required>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label" for="destinationInput">Destination</label>
+                  <input id="destinationInput" type="text" class="form-control" placeholder="City or country" required>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label" for="travelDate">Travel Date</label>
+                  <input id="travelDate" type="date" class="form-control" required>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label" for="tripType">Package Type</label>
+                  <select id="tripType" class="form-select" required>
+                    <option selected disabled value="">Choose package</option>
+                    <option>Budget</option>
+                    <option>Luxury</option>
+                    <option>Adventure</option>
+                  </select>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label" for="travelers">Travelers</label>
+                  <input id="travelers" type="number" class="form-control" min="1" placeholder="2" required>
+                </div>
+                <div class="col-12">
+                  <label class="form-label" for="requests">Additional Requests</label>
+                  <textarea id="requests" class="form-control" rows="4" placeholder="Tell us about your ideal trip..."></textarea>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-orange btn-lg rounded-pill px-4">Submit Booking</button>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div class="col-lg-5">
+            <aside class="booking-summary">
+              <span class="eyebrow">Travel highlights</span>
+              <h3>Exclusive perks</h3>
+              <ul>
+                <li>Free cancellation up to 7 days</li>
+                <li>Group discounts for families</li>
+                <li>Best-price guarantee</li>
+                <li>Priority support before departure</li>
+              </ul>
+              <div class="summary-card">
+                <p>Popular package</p>
+                <h4>Goa Beach Escape</h4>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span>From</span>
+                  <strong>₹18,500</strong>
+                </div>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials py-5 bg-light">
+      <div class="container">
+        <div class="section-heading text-center mb-5">
+          <span class="eyebrow">Testimonials</span>
+          <h2>What travelers say</h2>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="testimonial-card">
+              <p>“Everything was perfectly organized. The trip to Goa was smooth and stress-free from start to finish.”</p>
+              <div class="author">
+                <strong>Neha S.</strong>
+                <span>Goa package</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="testimonial-card">
+              <p>“TravelGo made our family vacation effortless. We loved the flexible itinerary and support.”</p>
+              <div class="author">
+                <strong>Rohan M.</strong>
+                <span>Kashmir getaway</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="testimonial-card">
+              <p>“From booking to arrival, the team was responsive and professional. Highly recommended for domestic trips.”</p>
+              <div class="author">
+                <strong>Aisha K.</strong>
+                <span>Kerala holiday</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" class="footer-section">
+    <div class="container py-5">
+      <div class="row align-items-center g-4">
+        <div class="col-md-6">
+          <h3>TravelGo</h3>
+          <p>Your next journey begins with a single click.</p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <p>Email: support@travelgo.com</p>
+          <p>Phone: +91 9876543210</p>
+        </div>
+      </div>
+      <div class="border-top mt-4 pt-3 text-center small">
+        <p>&copy; 2026 TravelGo. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      document.querySelectorAll('form').forEach(function (form) {
+        form.addEventListener('submit', function (event) {
+          event.preventDefault();
+          alert('Booking submitted successfully! Our travel expert will contact you soon.');
+          form.reset();
+        });
+      });
+    });
+  </script>
+</body>
+</html>
