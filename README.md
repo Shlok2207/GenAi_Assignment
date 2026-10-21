@@ -86,8 +86,4 @@ The root `Index.html` file acts as a central dashboard linking all individual pr
 
 This repository is intended as a hands-on collection of front-end assignment solutions and serves as a practical showcase of design and development skills across multiple web technologies.
 
-## GitHub Pages
 
-The site is deployed and available through GitHub Pages using the following URL:
-
-https://shlok2207.github.io/GenAi_Assignment/Index.html
