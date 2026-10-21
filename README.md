@@ -1,16 +1,14 @@
 # GenAI Assignment
 
-https://shlok2207.github.io/GenAi_Assignment/Index.html
+This repository contains a collection of front-end web development assignments and mini-projects created as part of a GenAI-powered learning journey. The projects highlight practical implementation of modern HTML, CSS, Bootstrap, and jQuery concepts with a strong focus on responsive design, UI/UX, and user interactions.
 
-This repository contains a collection of front-end web development assignments and mini-projects built as part of a GenAI-based web design learning journey. The projects focus on HTML5, CSS3, Bootstrap, jQuery, responsive design, and integrated UI/UX development.
-
-A live project portal is also included in the root folder (`Index.html`), which provides direct access to all assignments from one place.
+Live project portal: https://shlok2207.github.io/GenAi_Assignment/Index.html
 
 ## Project Overview
 
-The repository demonstrates practical implementation of:
+The repository demonstrates hands-on experience with:
 
-- Semantic and structured HTML5 web page development
+- Semantic and structured HTML5 development
 - Responsive and modern CSS layouts
 - Bootstrap-based component design
 - Interactive front-end behavior with jQuery
@@ -55,24 +53,24 @@ GenAi_Assignment/
 
 ## Included Assignments
 
-### 1. HTML5 Web Page development
-A structured department website using semantic HTML elements, table-based information sections, image gallery, multimedia content, and a contact form.
+### 1. HTML5 Web Page Development
+A structured department website built using semantic HTML elements, media sections, image galleries, and contact forms.
 
 ### 2. CSS3 and Responsive Design
-A modern personal portfolio website focused on responsive design, styling, section layouts, and clean front-end presentation.
+A modern personal portfolio website focused on responsive layouts, polished styling, and visual hierarchy.
 
 ### 3. Bootstrap-Based Website
-A food ordering and restaurant-themed landing page built using Bootstrap components with navigation, cards, offers, and order form sections.
+A restaurant-themed landing page using Bootstrap components such as navigation, cards, offers, and booking sections.
 
 ### 4. jQuery Interactive Web Application
-A Student Information System with CRUD-style features, including add, edit, delete, and search functionality using jQuery.
+A student information management interface with add, edit, delete, and search features using jQuery.
 
 ### 5. Integrated UI UX Project
-A polished travel booking website featuring hero sections, destination cards, package pricing, booking forms, and a premium user experience design.
+A premium travel booking website featuring booking forms, destination cards, package pricing, and a refined user experience.
 
 ## Live Project Portal
 
-The root `Index.html` file works as a central dashboard that links to all individual projects and allows easy browsing of the assignment collection.
+The root `Index.html` file acts as a central dashboard linking all individual projects and making the collection easy to browse.
 
 ## Technologies Used
 
@@ -86,4 +84,10 @@ The root `Index.html` file works as a central dashboard that links to all indivi
 
 ## Notes
 
-This repository is intended as a hands-on collection of front-end assignment solutions and showcases practical design and development skills across various web technologies.
+This repository is intended as a hands-on collection of front-end assignment solutions and serves as a practical showcase of design and development skills across multiple web technologies.
+
+## GitHub Pages
+
+The site is deployed and available through GitHub Pages using the following URL:
+
+https://shlok2207.github.io/GenAi_Assignment/Index.html
