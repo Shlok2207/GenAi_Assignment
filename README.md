@@ -1,5 +1,7 @@
 # GenAI Assignment
 
+https://shlok2207.github.io/GenAi_Assignment/
+
 This repository contains a collection of front-end web development assignments and mini-projects focused on HTML, CSS, Bootstrap, responsive design, and interactive user experiences.
 
 ## Project Overview
